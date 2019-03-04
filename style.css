@@ -15,6 +15,12 @@ header h1{
     padding: 0;
 }
 
+header p{
+    padding: 0;
+    margin-top: 5px;
+    color: #000;
+}
+
 #container{
     width: 60%;
     background: #199fdb;
@@ -23,3 +29,28 @@ header h1{
     padding: 25px;
 }
 
+section{
+    min-height: 400px;
+}
+
+input[type='submit']{
+    background: #f06226;
+    border: 0;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#results h3{
+    background: #f06226;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#results span{
+    color: #000;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+}
